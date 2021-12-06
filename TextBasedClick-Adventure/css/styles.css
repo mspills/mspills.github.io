@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(110, 49%, 78%);
+  text-align: center;
+}
+
+
+h1 {
+  color: hsl(110, 49%, 14%);
+  font-family: verdana;
+  font-size: 200%;
+}
+
+
+p {
+  color: black;
+  font-family: verdana;
+  font-size: 100%;
+  
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: verdana;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(110, 49%, 14%);
+  background-color: hsl(110, 49%, 14%);
+  text-decoration: underline;
+}
+
+div {
+  height: 75px;
+  width: 50%;
+  background-color: hsl(0, 0%, 84%);
+  font-family:verdana;
+  margin: auto;
+}
