@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgba(0, 35, 255, 0.3)">
+
+<h1 style="color:white;">Construct 3 Introduction Game Event Sheet</h1>
+    
+<h3>General...</h3>
+<img src="../media/eventSheetZero.png" style="width:800px;height:75px;">
+<body>
+<br>
+When the game first initiates, the Blue Player's score (player 1) and the Pink Player's score (player 2) are set to zero.
+<br>
+<h3>Player 2...</h3>
+<img src="../media/eventSheetOneToFour.png" style="width:800px;height:200px;">
+<br>
+Unlike Player 1, which requires less code, Player 2 uses WASD keys to determine their movement.  So when the key W is down, the player stimulates a jump.  When the A key is down, the player moves to the left.  When the D key is down, the player moves to the right.  And when the S key is down, the player moves down.
+<br>
+<h3>Player 1...</h3>
+<img src="../media/eventSheetFive.png" style="width:800px;height:50px;">
+<br>
+The movements for the up arrow, left arrow and right arrow do not need to be coded.  However, for the player to be able to move down from a jump faster, I incorporated a down movement when the down arrow is pressed.  
+<br>
+<h3>Scoring...</h3>
+<img src="../media/eventSheetSixToSeven.png" style="width:800px;height:150px;">
+<br>
+When the ball collides with the Blue Goal, the ball is destroyed and the value 1 is added to the Blue Player's score.  When the ball collides with the Pink Goal, the ball is destroyed and the value 1 is added to the Pink Player's score.  This means that if the Pink Player accidentally pushes the ball into the Blue Goal, the Blue Player will still gain the point...so be careful!
+<br>
+<h3>Reset...</h3>
+<img src="../media/eventSheetEight.png" style="width:800px;height:100px;">
+<br>
+Every tick, the game is constantly checking when the ball count is less than 1.  The ball count is only less than 1 when the ball had been destroyed after a player had scored.  When this happens, the ball is created back to it's origional location and the players are set to new positions on the platforms.  This is how the game resets after a point, but the scoreboard continues.  
+<br>
+<h3>The Scoreboard...</h3>
+<img src="../media/eventSheetNine.png" style="width:800px;height:75px;">
+<br>
+The game is constantly assessing the players' scores.  For both players the text says "Score:" and then the amount of times the ball has collided with their goal.
+<br>
+<br>
+<a href="../index.html">Home Page</a>
+</body>
+</html>
