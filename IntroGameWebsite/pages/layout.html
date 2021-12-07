@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgba(0, 35, 255, 0.3)">
+
+<h1 style="color:white;">Construct 3 Introduction Game Layout</h1>
+<h3>The Screen...</h3>
+
+<img src="../media/layoutGameLayout.png" alt="Arrow Keys" style="width:600px;height:400px;">
+<body>
+<br>
+1. The Blue Player's score.
+<br>
+2. The Pink Player's score.
+<br>
+3. The ball spawns at the top of the layout at the start and after a player scores.
+<br>
+4. An array of objects for the players to use to aid them in scoring.  
+<br>
+5. The Blue Player spawns above the Pink Player's goal.
+<br>
+6. The Pink Player spawns above the Blue Player's goal.
+<br>
+7. The Pink Player's goal.
+<br>
+8. The Blue Player's goal.
+<br>
+<h3>The Objects' Properties...</h3>
+    
+<img src="../media/objectsBehaviors.png" style="width:150px;height:300px;">
+<p>These are all of the objects included in this game.  However not all objects are seen by the user or have behaviors that affect game play.</p>
+<br>
+<img src="../media/ballBehaviors.png" style="width:400px;height:150px;">
+<p>The ball object (3) is given the behavior Physics.  This means that the ball obeys the laws of gravity.  The ball will bounce and roll as a ball does in real life.</p>
+<br>
+<img src="../media/goalBehaviors.png" alt="Arrow Keys" style="width:400px;height:150px;">
+<p>The goals (7,8) have no behaviors.  This is so the players and the balls are able to look like they move into the goals as they would in real life.</p>
+<br>
+<img src="../media/platformBehaviors.png" style="width:400px;height:150px;">
+<p>The platforms (4) have the behaviors of Solid and Physics.  This means that no objects are able to go through the platforms, unlike the goals which lacked this behavior.  Other objects can jump on, bounce off of or go across platforms thanks to this behavior.  The Physics behavior means that they obey all laws of physics, however they do not fall like the ball.</p>
+<br>
+<img src="../media/playerBehaviors.png" style="width:400px;height:150px;">
+<p>The players (5,6) have the behaviors Physics and Platform.  This means that objects cannot go through them, and they cannot go through other platforms.  The Physics behavior allows them to fall like the ball and obey all physics laws such as gravity. </p>
+<br>
+<a href="../index.html">Home Page</a>
+</body>
+</html>
